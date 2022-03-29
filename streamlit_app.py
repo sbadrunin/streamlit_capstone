@@ -1,3 +1,5 @@
+pip install -U click==8
+
 import pandas as pd
 import streamlit as st
 import numpy as np
