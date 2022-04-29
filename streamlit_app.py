@@ -85,7 +85,7 @@ elif (skill_level == 'advanced'):
 @st.cache
 def suggest_recipes(diet, n, course, skill, ingred):
     #load in the recipe dataset
-    df = pd.read_csv('clean_recipe2_5.csv', converters={'ingredients_clean': literal_eval})
+    df = pd.read_csv('clean_recipe2 (5).csv', converters={'ingredients_clean': literal_eval})
 
 
     #Defining the lemmatizer and stopwords list
